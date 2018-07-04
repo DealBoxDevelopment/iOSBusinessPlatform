@@ -72,6 +72,7 @@ __ Mongodb
 * email
 * password
 * savedDeals: [dealId]
+* boughtDeals: [dealId]
 
 __ Deal:
 * dealId
