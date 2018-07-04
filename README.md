@@ -4,7 +4,7 @@
    * [Objective](#objective)
    * [Audience](#audience)
    * [Experience](#experience)
-   *  [Nice to have]
+   *  [Nice to have](#next-version)
  * [Technical](#technical)
    * [Screens](#Screens)
    * [External services](#external-services)
@@ -34,10 +34,10 @@ Business that are looking for platform to post deals
 4. business can set how anytime can user buy the same deal
 5. business can set timeframe for the deal
 
----
-### Nice to have (V2)
+#### Nice to have (V2)
 1. business can have bundle sale (combo deal)
 
+---
 [Back to top ^](#)
 
 ---
