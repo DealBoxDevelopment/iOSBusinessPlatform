@@ -83,8 +83,8 @@ eg: limit n person, maybe repurced 3 times per month, appointment required, subj
 
 
 #### Data models
-__ Mongodb 
-* User:
+Mongodb 
+__ User:
 * userId
 * username
 * email
@@ -101,6 +101,13 @@ __ Deal:
 * dealTimeFrame
 * dealRedeemLimit: Int
 * dealReview(if redeemed)
+
+__ Catagory:
+* Restaurants: [businessID]
+* Concerts: [busiessID]
+* Movies: [busiessID]
+* Beauty: [busiessID]
+* Products: [businessID]
 
 __ Business:
 * businessId
