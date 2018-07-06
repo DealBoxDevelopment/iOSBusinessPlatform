@@ -4,6 +4,7 @@
    * [Objective](#objective)
    * [Audience](#audience)
    * [Experience](#experience)
+   * [App Flow](#deal_infomation_flow)
    *  [Nice to have](#next-version)
  * [Technical](#technical)
    * [Screens](#Screens)
@@ -34,6 +35,22 @@ Business that are looking for platform to post deals
 4. business can set how anytime can user buy the same deal
 5. business can set timeframe for the deal
 
+#### App Flow
+1. business fill out original price, percentage of discount. We show them customer pays $ and they receive $
+2. Select Deal main image or choose one from pictures we provided.
+3. Describe your business in 115 characters.
+4. What services does your business offer and what makes your business stand out from the competition?(<300 words)
+5. Set your fine print ( condition for redeem the deals )
+eg: limit n person, maybe repurced 3 times per month, appointment required, subject to weather/festivals/time frame...
+6. redemption location: use default business address / provide another address
+7. set lunch date
+8. sign agreement
+--- redirect to next page: 
+1. set up bank infomation
+2. set up tax details 
+3. look out for merchant login info to keep track of the deals
+4. download / print contract
+
 #### Nice to have (V2)
 1. business can have bundle sale (combo deal)
 
@@ -54,7 +71,8 @@ Business that are looking for platform to post deals
 
 #### Internal Apis
 1. post request to db to post business information
-2.  put request to db to update redeem of deal to be true once user showed up
+2. put request to db to update redeem of deal to be true once user showed up
+3. login route (once registered on website)
 
 #### Views, View Controllers, and other Classes
 * Views
