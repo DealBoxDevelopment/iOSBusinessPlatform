@@ -21,6 +21,8 @@
 ---
 
 ### App Design
+#### Links 
+https://dribbble.com/shots/2850386-Mobile-App-Flow
 
 #### Objective
 prescription based business model that provides business deals.
@@ -103,11 +105,11 @@ __ Deal:
 * dealReview(if redeemed)
 
 __ Catagory:
-* Restaurants: [businessID]
-* Concerts: [busiessID]
-* Movies: [busiessID]
-* Beauty: [busiessID]
-* Products: [businessID]
+* Restaurants: [dealID]
+* Concerts: [dealID]
+* Movies: [dealID]
+* Beauty: [dealID]
+* Products: [dealID]
 
 __ Business:
 * businessId
