@@ -54,7 +54,9 @@ eg: limit n person, maybe repurced 3 times per month, appointment required, subj
 4. download / print contract
 
 #### Nice to have (V2)
-1. business can have bundle sale (combo deal)
+1. business can scan QRcode of the deal once user show up.
+2. business can check feed back from customers.
+2. business can have bundle sale (combo deal).
 
 ---
 [Back to top ^](#)
@@ -109,8 +111,8 @@ __ Catagory:
 * Concerts: [dealID]
 * Movies: [dealID]
 * Beauty: [dealID]
-* Products: [dealID]
-
+<!-- * Products: [dealID]
+ -->
 __ Business:
 * businessId
 * businessName

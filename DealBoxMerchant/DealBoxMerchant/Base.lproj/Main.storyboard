@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DealBoxMerchant" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jAJ-t3-49M">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TaQ-LZ-5uT">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="priceCell" id="XSR-TH-Jn8" customClass="PriceCell" customModule="DealBoxMerchant" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XSR-TH-Jn8" id="QY7-pS-TLZ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="priceCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="dealImgCell" id="idX-dl-CbX" customClass="DealImgCell" customModule="DealBoxMerchant" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="idX-dl-CbX" id="H5G-j5-Bex">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="dealSummaryCell" id="Ce8-9e-1PD" customClass="DealSummaryCell" customModule="DealBoxMerchant" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="116" width="375" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ce8-9e-1PD" id="GZi-IS-Ge6">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="priceCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="dealPreconditionCell" id="F2X-P2-9Xa" customClass="DealPreconditionCell" customModule="DealBoxMerchant" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="160" width="375" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="F2X-P2-9Xa" id="jlP-Px-9QR">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="dealLocationCell" id="mb1-7g-Ikk" customClass="DealLocationCell" customModule="DealBoxMerchant" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="204" width="375" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mb1-7g-Ikk" id="fHk-3W-Wdp">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="priceCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="launchDateCell" id="cjH-ei-S2Q" customClass="LaunchDateCell" customModule="DealBoxMerchant" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="248" width="375" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cjH-ei-S2Q" id="usS-gm-AG3">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="signAgreementCell" id="Un2-7v-vmE" customClass="SignAgreementCell" customModule="DealBoxMerchant" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="292" width="375" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Un2-7v-vmE" id="E1n-M6-dJS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                        </prototypes>
+                                        <connections>
+                                            <outlet property="dataSource" destination="BYZ-38-t0r" id="AtX-eU-GZB"/>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="Gd0-M0-w4E"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="TaQ-LZ-5uT" firstAttribute="leading" secondItem="jAJ-t3-49M" secondAttribute="leading" id="27g-Pf-dPU"/>
+                                    <constraint firstAttribute="bottom" secondItem="TaQ-LZ-5uT" secondAttribute="bottom" id="9AM-5o-9ZL"/>
+                                    <constraint firstItem="TaQ-LZ-5uT" firstAttribute="leading" secondItem="jAJ-t3-49M" secondAttribute="leading" id="AyH-vs-aEL"/>
+                                    <constraint firstItem="TaQ-LZ-5uT" firstAttribute="top" secondItem="jAJ-t3-49M" secondAttribute="top" id="Mxk-ZT-h76"/>
+                                    <constraint firstItem="TaQ-LZ-5uT" firstAttribute="top" secondItem="jAJ-t3-49M" secondAttribute="top" id="S4u-Mm-Ze1"/>
+                                    <constraint firstAttribute="trailing" secondItem="TaQ-LZ-5uT" secondAttribute="trailing" id="eBw-RM-MUc"/>
+                                    <constraint firstAttribute="bottom" secondItem="TaQ-LZ-5uT" secondAttribute="bottom" id="lid-RF-QDn"/>
+                                    <constraint firstAttribute="trailing" secondItem="TaQ-LZ-5uT" secondAttribute="trailing" id="nME-kA-Nb1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jAJ-t3-49M" secondAttribute="trailing" id="1o8-MY-rqq"/>
+                            <constraint firstItem="jAJ-t3-49M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4Wm-Dd-NIE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jAJ-t3-49M" secondAttribute="bottom" id="J9o-Wf-qfb"/>
+                            <constraint firstItem="jAJ-t3-49M" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Qcg-Gg-kAM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="TaQ-LZ-5uT" id="Gbp-k9-jwB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
