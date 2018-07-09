@@ -15,9 +15,9 @@
 		F9C9CCE720F2B3E2005AC961 /* PriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C9CCE520F2B3E2005AC961 /* PriceCell.swift */; };
 		F9C9CCE820F2B3E2005AC961 /* PriceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C9CCE620F2B3E2005AC961 /* PriceCell.xib */; };
 		F9C9CCEC20F3BA7D005AC961 /* DealImgCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C9CCEA20F3BA7D005AC961 /* DealImgCell.swift */; };
-		F9C9CCED20F3BA7D005AC961 /* DealImgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C9CCEB20F3BA7D005AC961 /* DealImgCell.xib */; };
+		F9C9CCED20F3BA7D005AC961 /* DealSummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C9CCEB20F3BA7D005AC961 /* DealSummaryCell.xib */; };
 		F9C9CCF020F3BAC2005AC961 /* DealSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C9CCEE20F3BAC2005AC961 /* DealSummaryCell.swift */; };
-		F9C9CCF120F3BAC2005AC961 /* DealSummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C9CCEF20F3BAC2005AC961 /* DealSummaryCell.xib */; };
+		F9C9CCF120F3BAC2005AC961 /* DealImgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C9CCEF20F3BAC2005AC961 /* DealImgCell.xib */; };
 		F9C9CCF420F3BAFB005AC961 /* DealPreconditionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C9CCF220F3BAFB005AC961 /* DealPreconditionCell.swift */; };
 		F9C9CCF520F3BAFB005AC961 /* DealPreconditionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C9CCF320F3BAFB005AC961 /* DealPreconditionCell.xib */; };
 		F9C9CCF820F3BB12005AC961 /* DealLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C9CCF620F3BB12005AC961 /* DealLocationCell.swift */; };
@@ -39,9 +39,9 @@
 		F9C9CCE520F2B3E2005AC961 /* PriceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCell.swift; sourceTree = "<group>"; };
 		F9C9CCE620F2B3E2005AC961 /* PriceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceCell.xib; sourceTree = "<group>"; };
 		F9C9CCEA20F3BA7D005AC961 /* DealImgCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealImgCell.swift; sourceTree = "<group>"; };
-		F9C9CCEB20F3BA7D005AC961 /* DealImgCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealImgCell.xib; sourceTree = "<group>"; };
+		F9C9CCEB20F3BA7D005AC961 /* DealSummaryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealSummaryCell.xib; sourceTree = "<group>"; };
 		F9C9CCEE20F3BAC2005AC961 /* DealSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealSummaryCell.swift; sourceTree = "<group>"; };
-		F9C9CCEF20F3BAC2005AC961 /* DealSummaryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealSummaryCell.xib; sourceTree = "<group>"; };
+		F9C9CCEF20F3BAC2005AC961 /* DealImgCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealImgCell.xib; sourceTree = "<group>"; };
 		F9C9CCF220F3BAFB005AC961 /* DealPreconditionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealPreconditionCell.swift; sourceTree = "<group>"; };
 		F9C9CCF320F3BAFB005AC961 /* DealPreconditionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealPreconditionCell.xib; sourceTree = "<group>"; };
 		F9C9CCF620F3BB12005AC961 /* DealLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealLocationCell.swift; sourceTree = "<group>"; };
@@ -99,9 +99,9 @@
 				F9C9CCE620F2B3E2005AC961 /* PriceCell.xib */,
 				F9C9CCE520F2B3E2005AC961 /* PriceCell.swift */,
 				F9C9CCEE20F3BAC2005AC961 /* DealSummaryCell.swift */,
-				F9C9CCEF20F3BAC2005AC961 /* DealSummaryCell.xib */,
+				F9C9CCEF20F3BAC2005AC961 /* DealImgCell.xib */,
 				F9C9CCEA20F3BA7D005AC961 /* DealImgCell.swift */,
-				F9C9CCEB20F3BA7D005AC961 /* DealImgCell.xib */,
+				F9C9CCEB20F3BA7D005AC961 /* DealSummaryCell.xib */,
 				F9C9CCF220F3BAFB005AC961 /* DealPreconditionCell.swift */,
 				F9C9CCF320F3BAFB005AC961 /* DealPreconditionCell.xib */,
 				F9C9CCF620F3BB12005AC961 /* DealLocationCell.swift */,
@@ -173,11 +173,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9C9CCED20F3BA7D005AC961 /* DealImgCell.xib in Resources */,
+				F9C9CCED20F3BA7D005AC961 /* DealSummaryCell.xib in Resources */,
 				F9C9CCF520F3BAFB005AC961 /* DealPreconditionCell.xib in Resources */,
 				F9C9CCDD20F2A500005AC961 /* LaunchScreen.storyboard in Resources */,
 				F9C9CCFD20F3BB28005AC961 /* LaunchDateCell.xib in Resources */,
-				F9C9CCF120F3BAC2005AC961 /* DealSummaryCell.xib in Resources */,
+				F9C9CCF120F3BAC2005AC961 /* DealImgCell.xib in Resources */,
 				F9C9CD0120F3BB42005AC961 /* SignAgreementCell.xib in Resources */,
 				F9C9CCF920F3BB12005AC961 /* DealLocationCell.xib in Resources */,
 				F9C9CCE820F2B3E2005AC961 /* PriceCell.xib in Resources */,
