@@ -26,6 +26,8 @@
 		F9C9CCFD20F3BB28005AC961 /* LaunchDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C9CCFB20F3BB28005AC961 /* LaunchDateCell.xib */; };
 		F9C9CD0020F3BB42005AC961 /* SignAgreementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C9CCFE20F3BB42005AC961 /* SignAgreementCell.swift */; };
 		F9C9CD0120F3BB42005AC961 /* SignAgreementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C9CCFF20F3BB42005AC961 /* SignAgreementCell.xib */; };
+		F9C9CD0420F47590005AC961 /* PreconditionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C9CD0220F47590005AC961 /* PreconditionTableViewCell.swift */; };
+		F9C9CD0520F47590005AC961 /* PreconditionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C9CD0320F47590005AC961 /* PreconditionTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		F9C9CCFB20F3BB28005AC961 /* LaunchDateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchDateCell.xib; sourceTree = "<group>"; };
 		F9C9CCFE20F3BB42005AC961 /* SignAgreementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignAgreementCell.swift; sourceTree = "<group>"; };
 		F9C9CCFF20F3BB42005AC961 /* SignAgreementCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignAgreementCell.xib; sourceTree = "<group>"; };
+		F9C9CD0220F47590005AC961 /* PreconditionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreconditionTableViewCell.swift; sourceTree = "<group>"; };
+		F9C9CD0320F47590005AC961 /* PreconditionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreconditionTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +102,14 @@
 			children = (
 				F9C9CCE620F2B3E2005AC961 /* PriceCell.xib */,
 				F9C9CCE520F2B3E2005AC961 /* PriceCell.swift */,
-				F9C9CCEE20F3BAC2005AC961 /* DealSummaryCell.swift */,
 				F9C9CCEF20F3BAC2005AC961 /* DealImgCell.xib */,
 				F9C9CCEA20F3BA7D005AC961 /* DealImgCell.swift */,
 				F9C9CCEB20F3BA7D005AC961 /* DealSummaryCell.xib */,
+				F9C9CCEE20F3BAC2005AC961 /* DealSummaryCell.swift */,
 				F9C9CCF220F3BAFB005AC961 /* DealPreconditionCell.swift */,
 				F9C9CCF320F3BAFB005AC961 /* DealPreconditionCell.xib */,
+				F9C9CD0220F47590005AC961 /* PreconditionTableViewCell.swift */,
+				F9C9CD0320F47590005AC961 /* PreconditionTableViewCell.xib */,
 				F9C9CCF620F3BB12005AC961 /* DealLocationCell.swift */,
 				F9C9CCF720F3BB12005AC961 /* DealLocationCell.xib */,
 				F9C9CCFA20F3BB28005AC961 /* LaunchDateCell.swift */,
@@ -181,6 +187,7 @@
 				F9C9CD0120F3BB42005AC961 /* SignAgreementCell.xib in Resources */,
 				F9C9CCF920F3BB12005AC961 /* DealLocationCell.xib in Resources */,
 				F9C9CCE820F2B3E2005AC961 /* PriceCell.xib in Resources */,
+				F9C9CD0520F47590005AC961 /* PreconditionTableViewCell.xib in Resources */,
 				F9C9CCDA20F2A500005AC961 /* Assets.xcassets in Resources */,
 				F9C9CCD820F2A500005AC961 /* Main.storyboard in Resources */,
 			);
@@ -198,6 +205,7 @@
 				F9C9CD0020F3BB42005AC961 /* SignAgreementCell.swift in Sources */,
 				F9C9CCF420F3BAFB005AC961 /* DealPreconditionCell.swift in Sources */,
 				F9C9CCF820F3BB12005AC961 /* DealLocationCell.swift in Sources */,
+				F9C9CD0420F47590005AC961 /* PreconditionTableViewCell.swift in Sources */,
 				F9C9CCF020F3BAC2005AC961 /* DealSummaryCell.swift in Sources */,
 				F9C9CCE720F2B3E2005AC961 /* PriceCell.swift in Sources */,
 				F9C9CCD320F2A500005AC961 /* AppDelegate.swift in Sources */,

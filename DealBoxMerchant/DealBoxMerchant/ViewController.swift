@@ -13,8 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.rowHeight = UITableViewAutomaticDimension
-        tableView.estimatedRowHeight = 200
         
         let nibCellPrice = UINib(nibName: "PriceCell", bundle: Bundle.main)
         tableView.register(nibCellPrice, forCellReuseIdentifier: "priceCell")
@@ -58,8 +56,8 @@ extension ViewController: UITableViewDataSource {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "dealSummaryCell") as? DealSummaryCell else { fatalError("deal summary cell failed") }
             return cell
         case 3:
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: "dealPreconditionCell") as? DealPreconditionCell else { fatalError("deal precondition cell failed") }
-            return cell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "dealPreconditionCell") as? DealPreconditionCell
+            return cell!
         case 4:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "dealLocationCell") as? DealLocationCell else { fatalError("deal cell failed") }
             return cell
@@ -71,6 +69,15 @@ extension ViewController: UITableViewDataSource {
             return cell
         default:
             return PriceCell()
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        switch indexPath.row {
+        case 3:
+            return 700
+        default:
+            return UITableViewAutomaticDimension
         }
     }
     
